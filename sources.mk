@@ -5,6 +5,8 @@ CMSIS_STM32_DIR = CMSIS/STM32F3xx/include
 
 SRC = 							\
 $(SRC_DIR)/main.c				\
+$(SRC_DIR)/GPIO.c				\
+$(SRC_DIR)/LED.c				\
 $(SRC_DIR)/system_stm32f3xx.c
 
 ASM_SRC = 						\

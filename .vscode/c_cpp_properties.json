@@ -6,7 +6,7 @@
                 "${workspaceFolder}/CMSIS/Core/Include",       
                 "${workspaceFolder}/CMSIS/STM32F3xx/Include",  
                 "${workspaceFolder}",
-                "${workspaceFolder}/include"
+                "${workspaceFolder}/includes"
             ],
             "defines": [ // Add all the project defines here
                 "STM32F303x8"

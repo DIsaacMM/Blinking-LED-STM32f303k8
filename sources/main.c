@@ -21,9 +21,9 @@ int main()
     while (1)
     {
         led_on(); 
-        delay(1000000); 
+        delay(500000); 
         led_off(); 
-        delay(1000000); 
+        delay(500000); 
 
     }
     return 0; 

@@ -53,13 +53,13 @@ void gpio_initPort(port_t p)
 
     else if(p == F || p == 4)
     {
-        p = 6; 
+        p = 5; 
     }
     
     gpio_init(); 
     
     // Enable the clock for the selected Port
-    RCC->AHBENR |= (1UL << (p + 16)); 
+    RCC->AHBENR |= (1UL << (p + 17)); 
     
 }
 

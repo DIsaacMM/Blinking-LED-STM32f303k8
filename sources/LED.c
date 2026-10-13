@@ -4,7 +4,7 @@
  * 
  * The user may use this module to initialize and control the state of a LED inside an STM32
  * 
- * @authors David Mijares, Ximena Cedillo, Xavier Clemente
+ * @authors David Mijares
  */
 #include "LED.h"
 
